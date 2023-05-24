@@ -1,0 +1,31 @@
+export enum Rank {
+    Ace = "1",
+    Two = "2",
+    Three = "3",
+    Four = "4",
+    Five = "5",
+    Six = "6",
+    Seven = "7",
+    Eight = "8",
+    Nine = "9",
+    Ten = "10",
+    Jack = "11",
+    Queen = "12",
+    King = "13",
+}
+
+export const rankValue = {
+    [Rank.Ace]: 10,
+    [Rank.Two]: 20,
+    [Rank.Three]: 30,
+    [Rank.Four]: 40,
+    [Rank.Five]: 50,
+    [Rank.Six]: 60,
+    [Rank.Seven]: 70,
+    [Rank.Eight]: 80,
+    [Rank.Nine]: 90,
+    [Rank.Ten]: 100,
+    [Rank.Jack]: 110,
+    [Rank.Queen]: 120,
+    [Rank.King]: 130,
+};
